@@ -15,12 +15,15 @@ autosub是目前比较好的语音识别的工具，但是它的问题是，由�
 	'paddlepaddle'->pip install paddlepaddle-gpu==1.1.0.post87,
 	运行 sh setup.sh
 	
+测试数据下载：链接：https://pan.baidu.com/s/1xr4YXN3g30fx2pQEKrgx1Q 
+提取码：r09s 将数据下载到/data/cctv/路径下并根据task1_interface.py中的路径来更改文件名
+
 训练好的中文模型baidu_cn1.2k下载地址：
 链接：https://pan.baidu.com/s/1JI1Qh4x9UT9fdkT6TBYp0Q 
 提取码：t29d
 将模型下载到models/baidu_cn1.2k路径下解压
 
-运行代码：调用接口task1_interface：
+运行代码：调用接口task1_interface.py：
 from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 
 注：
