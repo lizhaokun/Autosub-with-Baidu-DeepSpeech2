@@ -1,6 +1,7 @@
 autosub是目前比较好的语音识别的工具，但是它的问题是，由于受到qiang的限制，我们需要找到合适的vpn才能使用这个开源的工具。针对中文语音的识别，我们结合了百度的deepspeech模型，结合使用autosub和百度的模型来进行识别，这样就很好的解决了上述问题，本项目将这种技术运用在了新闻联播节目的语音识别，来为新闻联播节目加上字幕，取得了一定的效果，因为是直接用了百度训练好的baidu_cn1.2k模型，所以效果并没有特别好，有需要的小伙伴可以自己训练适合于特定项目的模型。
 
-使用python2.7
+操作系统：ubuntu16.04
+python环境：使用python2.7
 
 环境配置：
 	sudo apt-get install -y pkg-config libflac-dev libogg-dev libvorbis-dev libboost-dev swig
