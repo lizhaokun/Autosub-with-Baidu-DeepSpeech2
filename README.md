@@ -14,6 +14,11 @@ from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 	'scipy>=0.19.0',
 	'paddlepaddle'->pip install paddlepaddle-gpu==1.1.0.post87,
 	运行 sh setup.sh
+	
+训练好的中文模型baidu_cn1.2k下载地址：
+链接：https://pan.baidu.com/s/1JI1Qh4x9UT9fdkT6TBYp0Q 
+提取码：t29d
+将模型下载到models/baidu_cn1.2k路径下解压
 
 注：
 1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装
