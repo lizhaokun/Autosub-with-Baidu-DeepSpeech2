@@ -33,7 +33,7 @@ python环境：使用python2.7
 from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 
 # 识别结果
-![result1](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/1.png)
+![](./images/1.png)
 ![result2](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/2.png)
 ![result3](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/3.png)
 
