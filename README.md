@@ -36,6 +36,10 @@ from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 ![result1](./images/1.png)  
 ![result2](./images/2.png)  
 ![result3](./images/3.png)  
+  
+视频+字幕(windows上用迅雷影音播放的结果，有的播放器会乱码)：
+![](./images/4.png)
+![](./images/5.png)
 
 # 注：
 1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装
