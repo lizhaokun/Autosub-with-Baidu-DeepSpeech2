@@ -20,7 +20,8 @@ python环境：使用python2.7
 	
 # 数据及模型下载
 测试数据下载：链接：https://pan.baidu.com/s/1xr4YXN3g30fx2pQEKrgx1Q 
-提取码：r09s 将数据下载到/data/cctv/路径下并根据task1_interface.py中的路径来更改文件名
+提取码：r09s 将数据下载到/data/cctv/路径下
+下载好数据后，我已将该视频生成的srt文件放在了/data/cctv/目录下，打开视频添加srt文件即可看到测试视频的效果。
 
 训练好的中文模型baidu_cn1.2k下载地址：
 链接：https://pan.baidu.com/s/1JI1Qh4x9UT9fdkT6TBYp0Q 
@@ -30,6 +31,9 @@ python环境：使用python2.7
 # 代码运行
 运行代码：调用接口task1_interface.py：
 from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
+
+# 识别结果
+
 
 # 注：
 1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装
