@@ -33,7 +33,9 @@ python环境：使用python2.7
 from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 
 # 识别结果
-![result1](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images)
+![result1](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/1.png)
+![result2](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/2.png)
+![result3](https://github.com/lizhaokun/Autosub-with-Baidu-DeepSpeech2/tree/master/images/3.png)
 
 # 注：
 1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装
