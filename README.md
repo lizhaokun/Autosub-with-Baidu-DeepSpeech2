@@ -29,7 +29,7 @@ python环境：使用python2.7
 将模型下载到models/baidu_cn1.2k路径下解压
 
 # 代码运行
-运行代码：调用接口task1_interface.py：
+运行代码：终端调用接口task1_interface.py：
 from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 
 # 识别结果
