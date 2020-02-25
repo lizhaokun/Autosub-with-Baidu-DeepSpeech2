@@ -42,7 +42,7 @@ from task1_interface import extractSubtitlefromVideo(./data/cctv/CCTV.mp4)
 ![](./images/5.png)
 
 # 注：
-1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装
-2）若出现带有interpn.so类似字样的错误，建议使用pip卸载resampy，再重新进行安装，并将scipy升级至0.19.0以上
+1）配置环境需要cuda8.0+cudnn7，建议使用conda install cudnn=7.0.5进行安装  
+2）若出现带有interpn.so类似字样的错误，建议使用pip卸载resampy，再重新进行安装，并将scipy升级至0.19.0以上  
 3）大概要使用6GB左右的GPU内存空间
 
